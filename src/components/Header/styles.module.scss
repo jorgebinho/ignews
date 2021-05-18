@@ -47,8 +47,12 @@
         position: absolute;
         bottom: 1px;
         left: 0;
-        background: var(--yellow);
+        background: var(--yellow-500);
       }
     }
+  }
+
+  button {
+    margin-left: auto;
   }
 }
