@@ -15,7 +15,7 @@ export function ActiveLink({ children, activeClassName, ...rest }: ActiveLinkPro
     : '';
 
     return (
-        <Link {...rest}>
+        <Link {...rest} prefetch>
             {cloneElement(children, {
                 className,
             })}
